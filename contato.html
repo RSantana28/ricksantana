@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contato</title>
+<link href="css/estilo.css" rel="stylesheet">
+<link href="css/contato.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+   <nav class="menu">
+    	<a href="index.html">Home</a>
+    	<a href="curriculo.html">Currículo</a>
+    	<a href="trabalhos.html">Trabalhos</a>
+    	<a href="galeria.html">Galeria</a>
+    	<a href="contato.html">Contato</a>
+    </nav>
+    
+<form action="#" method="post">
+    <fieldset>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" style="width: 10em" value="" />
+            </div>
+            <div class="campo">
+                <label for="snome">Sobrenome</label>
+                <input type="text" id="snome" name="snome" style="width: 10em" value="" />
+            </div>
+        </fieldset>
+        <div class="campo">
+            <label>Sexo</label>
+            <label>
+                <input type="radio" name="sexo" value="masculino"> Masculino
+            </label>
+            <label>
+                <input type="radio" name="sexo" value="feminino"> Feminino
+            </label>
+        </div>
+        <div class="campo">
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email" style="width: 20em" value="" />
+        </div>
+        <div class="campo">
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone" style="width: 10em"  value="" />
+        </div>
+ 
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade" name="cidade" style="width: 10em" value="" />
+            </div>
+            <div class="campo">
+                <label for="estado">Estado</label>
+                <select name="estado" id="estado">
+                    <option value="">--</option>
+                    <option value="PR">SP</option>
+                </select>
+            </div>
+        </fieldset>
+ 
+        <div class="campo">
+            <label for="mensagem">Mensagem</label>
+            <textarea rows="6" style="width: 20em" id="mensagem" name="mensagem"></textarea>
+        </div>
+ 
+        <button type="submit" name="submit">Enviar</button>
+ 
+    </fieldset>
+</form>				
+      
+       <footer id="contact">
+    <p class="hero_header">E-Mail: rwcsanta@gmail.com</p>
+    <p class="hero_header">Telefone: 11 3804-6813</p>
+    <p class="hero_header">Celular: 11 97637-2856</p>
+   </footer>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2017 - <strong>Rick Santana</strong></div>  
+ </div>
+  
+    
+
+</body>
+</html>
